@@ -25,7 +25,7 @@ function pos:distanceBetween(t)
 end
 
 --点击
-function pos:click(sleep, slepp1)
+function pos:click(sleep, sleep1)
   math.randomseed(tostring(os.time()):reverse():sub(1, 6))  --设置随机数种子
   local index = math.random(1,5)
   local x = self.x + math.random(-2,2)
